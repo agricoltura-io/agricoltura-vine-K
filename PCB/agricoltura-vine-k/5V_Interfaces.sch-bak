@@ -14,42 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AVR-KiCAD-Lib-Connectors:TSW-108-07-G-T T19
-U 1 1 5F0EF8CA
-P 2800 5200
-F 0 "T19" H 2850 5250 50  0000 C CNN
-F 1 "TSW-108-07-G-T" H 3150 3400 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:TSW-108-07-G-T" H 2600 5200 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 2700 5300 50  0001 C CNN
-F 4 "2.51000" H 2900 5450 50  0001 C CNN "Cost QTY: 1"
-F 5 "1.39350" H 3000 5550 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 3100 5650 50  0001 C CNN "Cost QTY: 2500"
-F 7 "1.23557" H 3200 5750 50  0001 C CNN "Cost QTY: 5000"
-F 8 "1.20770" H 3300 5850 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Samtec Inc." H 3400 5950 50  0001 C CNN "MFR"
-F 10 "TSW-108-07-G-T" H 3500 6050 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 3600 6150 50  0001 C CNN "Vendor"
-F 12 "SAM10855-ND" H 3700 6250 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 3800 6350 50  0001 C CNN "Designer"
-F 14 "10.92mm" H 3900 6450 50  0001 C CNN "Height"
-F 15 "6/18/2020" H 5000 7550 50  0001 C CNN "Date Created"
-F 16 "6/18/2020" H 4000 6550 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 4100 6650 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 4200 6750 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 4300 6850 50  0001 C CNN "Mounting"
-F 20 "24" H 4400 6950 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 4500 7050 50  0001 C CNN "Status"
-F 22 "*" H 4600 7150 50  0001 C CNN "Tolerance"
-F 23 "Connector" H 4700 7250 50  0001 C CNN "Type"
-F 24 "*" H 4800 7350 50  0001 C CNN "Voltage"
-F 25 "*" H 4900 7500 50  0001 C CNN "Package"
-F 26 "Connector Header Through Hole 24 position 0.100\" (2.54mm)" H 5300 7900 50  0001 C CNN "Description"
-F 27 "3X08" H 5100 7700 50  0001 C CNN "_Value_"
-F 28 "*" H 5200 7800 50  0001 C CNN "Management_ID"
-	1    2800 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR061
 U 1 1 5F0FCCF6
 P 2300 6000
@@ -461,8 +425,6 @@ F 3 "" H 10500 3900 50  0001 C CNN
 $EndComp
 Connection ~ 10500 3900
 Wire Wire Line
-	3500 6200 3500 6300
-Wire Wire Line
 	7450 5300 3500 5300
 Wire Wire Line
 	7450 5400 3500 5400
@@ -478,46 +440,6 @@ Wire Wire Line
 	7450 5900 3500 5900
 Wire Wire Line
 	7450 6000 3500 6000
-Connection ~ 3500 6900
-Connection ~ 3500 6800
-Wire Wire Line
-	3500 6800 3500 6900
-Connection ~ 3500 6700
-Wire Wire Line
-	3500 6700 3500 6800
-Connection ~ 3500 6600
-Wire Wire Line
-	3500 6600 3500 6700
-Connection ~ 3500 6500
-Wire Wire Line
-	3500 6500 3500 6600
-Connection ~ 3500 6400
-Wire Wire Line
-	3500 6400 3500 6500
-Connection ~ 3500 6300
-Wire Wire Line
-	3500 6300 3500 6400
-Wire Wire Line
-	2600 5300 2600 5400
-Wire Wire Line
-	2600 5400 2600 5500
-Connection ~ 2600 5400
-Connection ~ 2600 6000
-Connection ~ 2600 5500
-Wire Wire Line
-	2600 5500 2600 5600
-Connection ~ 2600 5600
-Wire Wire Line
-	2600 5600 2600 5700
-Connection ~ 2600 5700
-Wire Wire Line
-	2600 5700 2600 5800
-Connection ~ 2600 5800
-Wire Wire Line
-	2600 5800 2600 5900
-Connection ~ 2600 5900
-Wire Wire Line
-	2600 5900 2600 6000
 Connection ~ 10500 4700
 Connection ~ 10150 4800
 Wire Wire Line
@@ -525,113 +447,102 @@ Wire Wire Line
 Wire Wire Line
 	10750 4800 10150 4800
 Connection ~ 7050 4000
-Wire Wire Line
-	6800 4500 7450 4500
-Text Label 6900 4500 0    50   ~ 0
+Text HLabel 6750 4600 0    50   Input ~ 0
+DRV4
+Text HLabel 6750 4700 0    50   Input ~ 0
+DRV3
+Text HLabel 6750 4800 0    50   Input ~ 0
+DRV2
+Text HLabel 6750 4900 0    50   Input ~ 0
 DRV1
+Text HLabel 6750 4500 0    50   Input ~ 0
+DRV5
+Connection ~ 2600 6000
+Connection ~ 3500 6700
+Connection ~ 2600 5800
+Wire Wire Line
+	3500 6700 3500 6800
+Wire Wire Line
+	3500 6800 3500 6900
+Connection ~ 3500 6800
+Wire Wire Line
+	2600 5900 2600 6000
+Wire Wire Line
+	2600 5800 2600 5900
+Connection ~ 2600 5900
+Wire Wire Line
+	3500 6200 3500 6300
+Connection ~ 3500 6300
+Connection ~ 3500 6900
+Wire Wire Line
+	2600 5300 2600 5400
+Connection ~ 2600 5400
+Wire Wire Line
+	3500 6300 3500 6400
+Connection ~ 3500 6400
+Wire Wire Line
+	2600 5400 2600 5500
+Connection ~ 2600 5500
+Wire Wire Line
+	3500 6400 3500 6500
+Connection ~ 3500 6500
+Wire Wire Line
+	2600 5500 2600 5600
+Connection ~ 2600 5600
+Wire Wire Line
+	3500 6500 3500 6600
+Wire Wire Line
+	3500 6600 3500 6700
+Connection ~ 3500 6600
+Wire Wire Line
+	2600 5700 2600 5800
+Wire Wire Line
+	2600 5600 2600 5700
+Connection ~ 2600 5700
 $Comp
-L AVR-KiCAD-Lib-Connectors:0010897080 T20
-U 1 1 5EFE35FE
-P 1650 6600
-F 0 "T20" H 1750 6765 50  0000 C CNN
-F 1 "0010897080" H 1900 6050 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:Pin_Header_Straight_2x04_Pitch2.54mm" H 1450 6550 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/010897080_sd.pdf" H 1550 6700 50  0001 C CNN
-F 4 "1.05000" H 1750 6850 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.57952" H 1850 6950 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 1950 7050 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.50708" H 2050 7150 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.48173" H 2150 7250 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Molex" H 2250 7350 50  0001 C CNN "MFR"
-F 10 "0010897080" H 2350 7450 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 2450 7550 50  0001 C CNN "Vendor"
-F 12 "0010897080" H 2550 7650 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 2650 7750 50  0001 C CNN "Designer"
-F 14 "8.4mm" H 2750 7850 50  0001 C CNN "Height"
-F 15 "6/30/2020" H 3850 8950 50  0001 C CNN "Date Created"
-F 16 "6/30/2020" H 2850 7950 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 2950 8050 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 3050 8150 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole" H 3150 8250 50  0001 C CNN "Mounting"
-F 20 "8" H 3250 8350 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 3350 8450 50  0001 C CNN "Status"
-F 22 "*" H 3450 8550 50  0001 C CNN "Tolerance"
-F 23 "Pin Header" H 3550 8650 50  0001 C CNN "Type"
-F 24 "*" H 3650 8750 50  0001 C CNN "Voltage"
-F 25 "*" H 3750 8900 50  0001 C CNN "Package"
-F 26 "Connector Header Through Hole 8 position 0.100\" (2.54mm)" H 4150 9300 50  0001 C CNN "Description"
-F 27 "2X04" H 3950 9100 50  0001 C CNN "_Value_"
-F 28 "*" H 4050 9200 50  0001 C CNN "Management_ID"
-	1    1650 6600
+L AVR-KiCAD-Lib-Connectors:TSW-108-07-G-T T19
+U 1 1 5F0EF8CA
+P 2800 5200
+F 0 "T19" H 2850 5250 50  0000 C CNN
+F 1 "TSW-108-07-G-T" H 3150 3400 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:TSW-108-07-G-T" H 2600 5200 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 2700 5300 50  0001 C CNN
+F 4 "2.51000" H 2900 5450 50  0001 C CNN "Cost QTY: 1"
+F 5 "1.39350" H 3000 5550 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 3100 5650 50  0001 C CNN "Cost QTY: 2500"
+F 7 "1.23557" H 3200 5750 50  0001 C CNN "Cost QTY: 5000"
+F 8 "1.20770" H 3300 5850 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Samtec Inc." H 3400 5950 50  0001 C CNN "MFR"
+F 10 "TSW-108-07-G-T" H 3500 6050 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 3600 6150 50  0001 C CNN "Vendor"
+F 12 "SAM10855-ND" H 3700 6250 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 3800 6350 50  0001 C CNN "Designer"
+F 14 "10.92mm" H 3900 6450 50  0001 C CNN "Height"
+F 15 "6/18/2020" H 5000 7550 50  0001 C CNN "Date Created"
+F 16 "6/18/2020" H 4000 6550 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 4100 6650 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 4200 6750 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 4300 6850 50  0001 C CNN "Mounting"
+F 20 "24" H 4400 6950 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 4500 7050 50  0001 C CNN "Status"
+F 22 "*" H 4600 7150 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 4700 7250 50  0001 C CNN "Type"
+F 24 "*" H 4800 7350 50  0001 C CNN "Voltage"
+F 25 "*" H 4900 7500 50  0001 C CNN "Package"
+F 26 "Connector Header Through Hole 24 position 0.100\" (2.54mm)" H 5300 7900 50  0001 C CNN "Description"
+F 27 "3X08" H 5100 7700 50  0001 C CNN "_Value_"
+F 28 "*" H 5200 7800 50  0001 C CNN "Management_ID"
+	1    2800 5200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0128
-U 1 1 5F003EA5
-P 1450 6350
-F 0 "#PWR0128" H 1450 6200 50  0001 C CNN
-F 1 "+5V" H 1465 6523 50  0000 C CNN
-F 2 "" H 1450 6350 50  0001 C CNN
-F 3 "" H 1450 6350 50  0001 C CNN
-	1    1450 6350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	1450 6700 1450 6350
+	6750 4500 7450 4500
 Wire Wire Line
-	2050 6700 2600 6700
-Text Label 6950 4600 0    50   ~ 0
-DRV2
+	7450 4600 6750 4600
 Wire Wire Line
-	6800 4600 7450 4600
+	7450 4700 6750 4700
 Wire Wire Line
-	1450 6800 950  6800
+	7450 4800 6750 4800
 Wire Wire Line
-	1450 6900 950  6900
-Wire Wire Line
-	1450 7000 950  7000
-Wire Wire Line
-	2550 6800 2050 6800
-Wire Wire Line
-	2550 6900 2050 6900
-Wire Wire Line
-	2550 7000 2050 7000
-Text Label 1150 6800 0    50   ~ 0
-P02
-Text Label 7000 4700 0    50   ~ 0
-P02
-Wire Wire Line
-	6800 4700 7450 4700
-Wire Wire Line
-	6800 4800 7450 4800
-Wire Wire Line
-	6800 4900 7450 4900
-Wire Wire Line
-	6800 5000 7450 5000
-Wire Wire Line
-	6800 5100 7450 5100
-Wire Wire Line
-	6800 5200 7450 5200
-Text Label 2150 6800 0    50   ~ 0
-P03
-Text Label 7000 4800 0    50   ~ 0
-P03
-Text Label 1150 6900 0    50   ~ 0
-P04
-Text Label 7000 4900 0    50   ~ 0
-P04
-Text Label 2150 6900 0    50   ~ 0
-P05
-Text Label 1150 7000 0    50   ~ 0
-P06
-Text Label 2150 7000 0    50   ~ 0
-P07
-Text Label 7000 5000 0    50   ~ 0
-P05
-Text Label 7000 5100 0    50   ~ 0
-P06
-Text Label 7000 5200 0    50   ~ 0
-P07
-Wire Wire Line
-	2600 6000 2600 6700
+	7450 4900 6750 4900
 $EndSCHEMATC
