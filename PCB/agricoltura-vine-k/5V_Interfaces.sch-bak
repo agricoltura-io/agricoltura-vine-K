@@ -545,4 +545,78 @@ Wire Wire Line
 	7450 4800 6750 4800
 Wire Wire Line
 	7450 4900 6750 4900
+$Comp
+L AVR-KiCAD-Lib-Connectors:TSW-103-07-G-T T9
+U 1 1 5F29B8F0
+P 2800 4550
+F 0 "T9" H 3050 3485 50  0000 C CNN
+F 1 "TSW-103-07-G-T" H 3050 3576 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:TSW-103-07-G-T" H 2600 4550 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 2700 4650 50  0001 C CNN
+F 4 "1.01000" H 2900 4800 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.55680" H 3000 4900 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 3100 5000 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.48720" H 3200 5100 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.46284" H 3300 5200 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Samtec Inc." H 3400 5300 50  0001 C CNN "MFR"
+F 10 "TSW-103-07-G-T" H 3500 5400 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 3600 5500 50  0001 C CNN "Vendor"
+F 12 "SAM10328-ND" H 3700 5600 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 3800 5700 50  0001 C CNN "Designer"
+F 14 "10.92mm" H 3900 5800 50  0001 C CNN "Height"
+F 15 "7/23/2020" H 5000 6900 50  0001 C CNN "Date Created"
+F 16 "7/23/2020" H 4000 5900 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 4100 6000 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 4200 6100 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole" H 4300 6200 50  0001 C CNN "Mounting"
+F 20 "96" H 4400 6300 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 4500 6400 50  0001 C CNN "Status"
+F 22 "*" H 4600 6500 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 4700 6600 50  0001 C CNN "Type"
+F 24 "*" H 4800 6700 50  0001 C CNN "Voltage"
+F 25 "*" H 4900 6850 50  0001 C CNN "Package"
+F 26 "Connector Header Through Hole 9 position 0.100\" (2.54mm)" H 5300 7250 50  0001 C CNN "Description"
+F 27 "3X03" H 5100 7050 50  0001 C CNN "_Value_"
+F 28 "*" H 5200 7150 50  0001 C CNN "Management_ID"
+	1    2800 4550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7450 5000 5050 5000
+Wire Wire Line
+	5050 5000 5050 4250
+Wire Wire Line
+	5050 4250 3500 4250
+Wire Wire Line
+	4950 4350 4950 5100
+Wire Wire Line
+	4950 5100 7450 5100
+Wire Wire Line
+	7450 5200 4850 5200
+Wire Wire Line
+	4850 5200 4850 4450
+Wire Wire Line
+	4850 4450 3500 4450
+Wire Wire Line
+	3500 4350 4950 4350
+Connection ~ 2600 5300
+Wire Wire Line
+	3500 6200 3950 6200
+Connection ~ 3500 6200
+Wire Wire Line
+	2600 4250 2600 4350
+Wire Wire Line
+	3500 3950 3500 3850
+Connection ~ 3500 3850
+Wire Wire Line
+	3500 3850 3500 3750
+Wire Wire Line
+	3500 3750 4550 3750
+Connection ~ 3500 3750
+Connection ~ 2600 4350
+Wire Wire Line
+	2600 4350 2600 4450
+Connection ~ 2600 4450
+Wire Wire Line
+	2600 4450 2600 5300
 $EndSCHEMATC

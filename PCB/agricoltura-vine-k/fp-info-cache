@@ -1,4 +1,4 @@
-91401599375615
+103933551560739
 AVR-KiCAD-Lib-Connectors
 2X6HDR2.54mm
 
@@ -83,6 +83,13 @@ AVR-KiCAD-Lib-Connectors
 0
 6
 6
+AVR-KiCAD-Lib-Connectors
+0475890001
+
+
+0
+11
+11
 AVR-KiCAD-Lib-Connectors
 1054500101_USB_C
 
@@ -364,6 +371,48 @@ Through hole pin header THT 2x05 2.54mm double row
 10
 10
 AVR-KiCAD-Lib-Connectors
+S2B-PH-K-S(LF)(SN)
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+connector jst ph
+0
+2
+2
+AVR-KiCAD-Lib-Connectors
+S2B-PH-SM4-TB(LF)(SN)
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+connector jst ph
+0
+4
+2
+AVR-KiCAD-Lib-Connectors
+S3B-PH-K-S(LF)(SN)
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+connector jst ph
+0
+3
+3
+AVR-KiCAD-Lib-Connectors
+S3B-PH-SM4-TB(LF)(SN)
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+connector jst ph
+0
+5
+3
+AVR-KiCAD-Lib-Connectors
+S4B-PH-SM4-TB(LF)(SN)
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+connector jst ph
+0
+6
+4
+AVR-KiCAD-Lib-Connectors
+S6B-PH-SM4-TB(LF)(SN)
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+connector jst ph
+0
+8
+6
+AVR-KiCAD-Lib-Connectors
 Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
 Through hole pin header THT 1x03 2.54mm single row
@@ -391,6 +440,13 @@ phoenix_contact connector MSTBA_01x05_G_5.00mm
 0
 5
 5
+AVR-KiCAD-Lib-Connectors
+TSW-103-07-G-T
+
+
+0
+9
+9
 AVR-KiCAD-Lib-Connectors
 TSW-108-07-G-T
 
