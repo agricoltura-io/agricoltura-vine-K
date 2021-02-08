@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name agricoltura-vine-k-rescue)(type Legacy)(uri ${KIPRJMOD}/agricoltura-vine-k-rescue.lib)(options "")(descr ""))
+)
