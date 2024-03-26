@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name agricoltura-vine-k-rescue)(type Legacy)(uri ${KIPRJMOD}/agricoltura-vine-k-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "agricoltura-vine-k-rescue")(type "KiCad")(uri "${KIPRJMOD}/agricoltura-vine-k-rescue.kicad_sym")(options "")(descr ""))
 )
